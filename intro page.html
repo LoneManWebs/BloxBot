@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html {
+      background: linear-gradient(to bottom right, rgb(34, 34, 34), rgb(119, 119, 119));
+      font-weight: bold;
+   }
+   .header {
+    position: relative;
+    left: 400px;
+    top: -175px;
+    font-size: x-large;
+   }
+
+   .section {
+    position: relative;
+    left: 300px;
+    top: -100px;
+    font-size: x-large;
+   }
+
+   #button1 {
+    position: relative;
+    left: 600px;
+    top: -100px;
+    font-size: small;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(0, 255, 0);
+   }
+
+   .div {
+    border: 3px solid rgb(0, 0, 0);
+    height: 175px;
+    width: 175px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+   }
+
+   nav {
+    position: relative;
+    left: 500px;
+   }
+  </style>
+</head>
+<body>
+  <div class="div">
+  <img src=""/>
+  </div>
+  <header class="header">BloxBot - the future of Blox Fruits</header>
+  <main>
+    <section class="section">Welcome to BloxBot , The <span style="color:rgb(255, 0, 0);">ULTIMATE</span>bloxx Fruits guide </section>
+    <section class="section">Here , you can get answers to <span style="color:rgb(255, 0, 0);">ALMOST ANYTHING</span>related to Blox Fruits</section>
+    <section class="section">What are you waiting for ? try BloxBot  <span style="color:rgb(255, 0, 0);">NOW</span>!</section>
+    <br>
+    <button onclick="enterNextPage()" id="button1">Click me !</button>
+  </main>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer>
+    <nav>
+      <a href="About.html">About</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Policy</a>
+      <a href="CustomerSupport.html">Customer Support</a>
+    </nav>
+</footer>
+  <script>
+ function enterNextPage() {
+  window.location.href = "BloxBot.html";
+  console.log("entering...");
+ }
+  </script>
+</body>
+</html>
